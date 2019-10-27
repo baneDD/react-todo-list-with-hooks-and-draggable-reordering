@@ -1,0 +1,32 @@
+{
+  "name": "todo-list-demo-with-hooks-and-draggable-task-reordering",
+  "version": "1.0.0",
+  "description": "Simple ToDo list example with draggable list reordering. Implemented with hooks and functional components only.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.25",
+    "@fortawesome/free-solid-svg-icons": "5.11.2",
+    "@fortawesome/react-fontawesome": "0.1.7",
+    "bulma": "0.8.0",
+    "react": "16.8.6",
+    "react-beautiful-dnd": "11.0.5",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

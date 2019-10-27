@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  padding-top: 14px;
+}
+
+.task-list-container {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #888;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.task {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 8px);
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.bars-right {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
